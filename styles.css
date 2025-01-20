@@ -203,7 +203,7 @@ header h1 {
 
 #content {
   height: calc(100% - 340px);
-  overflow-y: auto;
+  overflow: hidden;
   padding: clamp(12px, 3vw, 16px);
 }
 
