@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2E7D32">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Mias Sungai Taiwan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="android-container">
+    <div class="app-container">
+      <header>
+        <h1>MIAS SUNGAI TAIWAN</h1>
+      </header>
+
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide active">
+            <svg viewBox="0 0 800 300">
+              <defs>
+                <linearGradient id="banner1-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#43A047;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#banner1-grad)"/>
+            <g transform="translate(50, 100)">
+              <text fill="white" font-size="32" font-weight="bold">Welcome to School Database</text>
+              <text y="50" fill="white" font-size="20">Manage Your School Efficiently</text>
+            </g>
+            <path d="M600,50 Q650,150 600,250" stroke="rgba(255,255,255,0.2)" fill="none" stroke-width="2"/>
+            <circle cx="650" cy="150" r="80" fill="rgba(255,255,255,0.1)"/>
+          </svg>
+        </div>
+        <div class="slide">
+          <svg viewBox="0 0 800 300">
+            <defs>
+              <linearGradient id="banner2-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#43A047;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#banner2-grad)"/>
+          <g transform="translate(50, 100)">
+            <text fill="white" font-size="32" font-weight="bold">Student Management</text>
+            <text y="50" fill="white" font-size="20">Track Progress & Performance</text>
+          </g>
+          <path d="M600,50 L700,150 L600,250" stroke="rgba(255,255,255,0.2)" fill="none" stroke-width="2"/>
+          <rect x="620" y="100" width="100" height="100" fill="rgba(255,255,255,0.1)"/>
+        </svg>
+      </div>
+      <div class="slide">
+        <svg viewBox="0 0 800 300">
+          <defs>
+            <linearGradient id="banner3-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#388E3C;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#43A047;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#banner3-grad)"/>
+        <g transform="translate(50, 100)">
+          <text fill="white" font-size="32" font-weight="bold">Class Schedule</text>
+          <text y="50" fill="white" font-size="20">Organize Your Academic Calendar</text>
+        </g>
+        <circle cx="650" cy="150" r="60" fill="rgba(255,255,255,0.1)"/>
+        <circle cx="700" cy="100" r="40" fill="rgba(255,255,255,0.1)"/>
+      </svg>
+    </div>
+    <div class="slider-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</div>
+
+<nav class="menu-grid">
+  <div class="menu-item" onclick="navigate('about')">
+    <span class="material-icons">business</span>
+    <span>About School</span>
+  </div>
+  <div class="menu-item" onclick="navigate('teacher')">
+    <span class="material-icons">school</span>
+    <span>Teacher</span>
+  </div>
+  <div class="menu-item" onclick="navigate('students')">
+    <span class="material-icons">people</span>
+    <span>Students</span>
+  </div>
+  <div class="menu-item" onclick="navigate('alumni')">
+    <span class="material-icons">groups</span>
+    <span>Alumni</span>
+  </div>
+  <div class="menu-item" onclick="navigate('data')">
+    <span class="material-icons">analytics</span>
+    <span>Data</span>
+  </div>
+  <div class="menu-item" onclick="navigate('information')">
+    <span class="material-icons">info</span>
+    <span>Information</span>
+  </div>
+</nav>
+
+<main id="content">
+  <!-- Content will be loaded here -->
+</main>
+
+<nav class="bottom-nav">
+  <div class="nav-item active">
+    <span class="material-icons">home</span>
+    <span>Home</span>
+  </div>
+  <div class="nav-item">
+    <span class="material-icons">search</span>
+    <span>Search</span>
+  </div>
+  <div class="nav-item">
+    <span class="material-icons">notifications</span>
+    <span>Alerts</span>
+  </div>
+  <div class="nav-item">
+    <span class="material-icons">settings</span>
+    <span>Settings</span>
+  </div>
+</nav>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
